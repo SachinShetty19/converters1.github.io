@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CONV</title>
+    <link rel="icon" type="image/png" href="icon-removebg-preview.png">
+    <link rel="stylesheet" href="CONV.CSS">
+</head>
+<body>
+    <nav id="nav">
+        <a href="CONV.HTML">
+            <img src="Screenshot_2024-02-10_164558-removebg-preview.png" height="70" width="260">
+        </a>
+    </nav>
+
+    <section>
+        <div id="box">
+            <h2>Seconds to Minutes</h2>
+            <div>
+                <span>Seconds</span> 
+                <input type="text" onkeyup="sectomin(this.value)">
+            </div> 
+            <div>
+                <p class="result time1">Minutes = </p>
+    
+            </div>
+        </div>
+        <div id="box">
+            <h2>Minutes to Seconds</h2>
+            <div>
+                <span>Minutes</span> 
+                <input type="text" onkeyup="mintosec(this.value)">
+            </div> 
+            <div>
+                <p class="result time2">Seconds = </p>
+    
+            </div>
+        </div>
+        <div id="box">
+            <h2>Minutes to Hours</h2>
+            <div>
+                <span>Minutes</span> 
+                <input type="text" onkeyup="mintohours(this.value)">
+            </div> 
+            <div>
+                <p class="result time3">Hours = </p>
+    
+            </div>
+        </div>
+        <div id="box">
+            <h2>Hours to Minutes</h2>
+            <div>
+                <span>Hours</span> 
+                <input type="text" onkeyup="hourtomin(this.value)">
+            </div> 
+            <div>
+                <p class="result time4">Minutes = </p>
+    
+            </div>
+        </div>
+        <div id="box">
+            <h2>Hours to Days</h2>
+            <div>
+                <span>Hours</span> 
+                <input type="text" onkeyup="hourstodays(this.value)">
+            </div>
+            <div>
+                <p class="result time5">Days = </p>
+            </div>
+        </div>
+        <div id="box" class="spec">
+            <h2>Days to Hours</h2>
+            <div>
+                <span>Days</span> 
+                <input type="text" onkeyup="daystohours(this.value)">
+            </div> 
+            <div>
+                <p class="result time6">Hours = </p>
+    
+            </div>
+        </div>
+    </section>
+    <script src="CONV.JS"></script>
+</body>
+</html>

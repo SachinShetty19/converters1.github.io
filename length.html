@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CONV</title>
+    <link rel="icon" type="image/png" href="icon-removebg-preview.png">
+    <link rel="stylesheet" href="CONV.CSS">
+</head>
+<body>
+    <nav id="nav">
+        <a  href="CONV.HTML">
+            <img src="Screenshot_2024-02-10_164558-removebg-preview.png" height="70" width="260">
+        </a>
+    </nav>
+    <section>
+    <div id="box">
+        <h2>Centimeter to Inches</h2>
+        <div>
+            <span>Centimeter</span> 
+            <input type="text" onkeyup="centitoinche(this.value)">
+        </div>
+        <div>
+            <p class="result len1">Inches = </p>
+
+        </div>
+    </div>
+    <div id="box">
+        <h2>Inches to Centimeter</h2>
+        <div>
+            <span>Inches</span> 
+            <input type="text" onkeyup="inchetocenti(this.value)">
+        </div> 
+        <div>
+            <p class="result len2">Centimeter = </p>
+
+        </div>
+    </div>
+    <div id="box">
+        <h2>Meter to Centimeter</h2>
+        <div>
+            <span>Meter</span> 
+            <input type="text" onkeyup="metertocenti(this.value)">
+        </div> 
+        <div>
+            <p class="result len3">Centimeter = </p>
+        </div>
+    </div>
+    <div id="box">
+        <h2>Centimeter to Meter</h2>
+        <div>
+            <span>Centimeter</span> 
+            <input type="text" onkeyup="centitometer(this.value)">
+        </div> 
+        <div>
+            <p  class="result len4">Meter = </p>
+
+        </div>
+    </div>
+    <div id="box">
+        <h2>Meter to Kilometer</h2>
+        <div>
+            <span>Meter</span> 
+            <input type="text" onkeyup="metertokilo(this.value)">
+        </div> 
+        <div>
+            <p class="result len5" >Kilometer = </p>
+        </div>
+    </div>
+    <div id="box" class="spec">
+        <h2>Kilometer to Meter</h2>
+        <div>
+            <span>Kilometer</span> 
+            <input type="text" onkeyup="kilotometer(this.value)">
+        </div> 
+        <div>
+            <p class="result len6">Meter = </p>
+
+        </div>
+    </div>
+    </section>
+    <script src="CONV.JS"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CONV</title>
+    <link rel="icon" type="image/png" href="icon-removebg-preview.png">
+    <link rel="stylesheet" href="CONV.CSS">
+</head>
+<body>
+    <nav id="nav">
+        <a href="CONV.HTML">
+            <img src="Screenshot_2024-02-10_164558-removebg-preview.png" height="70" width="260">
+        </a>
+    </nav>        
+    
+    <section>
+        <div id="box">
+            <h2>Fahrenheit to Celsius</h2>
+            <div>
+                <span>Fahrenheit</span> 
+                <input type="text" onkeyup="fhtocel(this.value)">
+            </div> 
+            <div>
+                <p class="result temp1">Celsius = </p>
+    
+            </div>
+        </div>
+        <div id="box">
+            <h2>Celsius to Fahrenheit</h2>
+            <div>
+                <span>Celsius</span> 
+                <input type="text" onkeyup="celtofh(this.value)">
+            </div> 
+            <div>
+                <p class="result temp2">Fahrenheit = </p>
+    
+            </div>
+        </div>
+    </section>
+    <script src="CONV.JS"></script>
+</body>
+</html>
